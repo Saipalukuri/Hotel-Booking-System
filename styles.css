@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", serif;
+}
+.hero-section{
+    background-image:url(https://ramadadarjeeling.com/wp-content/uploads/2022/09/Deluxe-Room-booking-in-Darjeeling-Hotel-Booking.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position:relative;
+    text-align:center;
+}
+.hero-text{
+    color: white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.hero-text > h1{
+    font-size:40px;
+}
+.book-button,
+.know-button{
+    background-color:aqua;
+    font-size:18px;
+    border:none;
+    border-radius:20px;
+    padding:10px 20px ;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.hero-section{
+    text-align:center;
+    margin-bottom:20px;
+}
+.about-section{
+    display:flex;
+    justify-content: space-around;
+}
+.about-heading,
+.room-heading,
+.form-heading{
+    text-align: center;
+}
+.about-us{
+    width:50%;
+    justify-content: space-around;
+}
+.know-button{
+    text-align: center;
+    justify-content: space-around;
+}
+ul li{
+    list-style:none;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+
+
+.room-type{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:row-reverse;
+    padding:0px 20px;
+    margin-top:20px;
+}
+.room-list h4{
+    font-size: 20px;
+}
+.room-images{
+    background-image: url(https://plus.unsplash.com/premium_photo-1675616563084-63d1f129623d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height:400px;
+    width:600px;
+    justify-content: left;
+    background-size: cover;
+}
+.about-section >h1{
+    text-align:center;
+    margin:10px 0px;
+    text-decoration:underline;
+}
+.help-button{
+    background-color:blueviolet; 
+    width:fit-content;
+    padding:5px 15px;
+    border-radius: 16px;
+    position:fixed;
+    bottom:20px;
+    right:0;
+}
+.help-button h4{
+    color:white;
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+form{
+    margin-top:20px;
+    border:2px solid gray;
+    width:max-content;
+    padding:20px;  
+    border-radius:16px;
+
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+}
+input,
+select{
+    padding:5px;
+    font-size: 15px;
+}
+.book{
+    background-color: aqua;
+    margin-top:5px;
+}   
+
+@media only screen and (max-width:500px){
+    .hero-text > h1,
+    .about-heading,
+    .room-heading,
+    .form-heading{
+        font-size:1.5rem;
+    }
+    p{
+        font-size:0.8rem;
+        max-width: fit-content;
+    }
+    .room-images{
+        background-image: url(https://plus.unsplash.com/premium_photo-1675616563084-63d1f129623d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        height:200px;
+        width:600px;
+        justify-content: left;
+        background-size: cover;
+    }
+    .hero-text{
+        width:fit-content;
+    }
+    .about-section{
+        display: block;
+        padding: 0rem 0.5rem;
+    }
+    .about-us{
+        width:100%;
+    }
+    .know-button{
+        font-size: 1rem;
+    }
+    ul li{
+        font-size: 13px;
+    }
+    label{
+        font-size: 15px;
+    }
+    input, select{
+        padding: 3px;
+        font-size:13px
+    }
+    .room-list h4{
+        font-size: 15px;
+    }
+   
+
+}
+
+@media only screen and (min-width:501px) and (max-width:980px){
+    .hero-text > h1{
+        font-size:30px;
+    }
+}
+

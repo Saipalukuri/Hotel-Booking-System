@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5ee423438.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+<body>
+  <section class="hero-section">
+    <div class="hero-text">
+        <h1>Welcome to paradise Hotel</h1>
+        <p style=" margin:10px;">We provide rooms at very good price along with 
+           great amenities to amke your living experience awesome</p>
+        <button class="book-button">Book</button>
+    </div>
+  </section> 
+  <h1 class="about-heading"> About Us</h1>
+  <section class="about-section">
+    <div class="about-us">
+        <p>Family hotel , the old recreational area
+             in the pine tree forest beside magnetic black sand beach. 
+             Total 15 Standard rooms (queen-bed + extra bed),
+              6 Junior Suites (bedroom + convertible living area) and 
+              1 Family suite (parents bedroom + kids room with 2 twin beds + convertible
+               living area). All rooms feature terrace or balcony. On-site a la carte restaurant.</p>
+        <button class="know-button">Know More.... </button>
+    </div>
+    <div class="amenities">
+        <h4><b> Amenities we have:</b></h4>
+        <ul>
+            <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+            <li><i class="fa-solid fa-bowl-food"></i>Complementary Breakfast</li>
+            <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+            <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+            <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+        </ul>
+    </div>
+  </section>
+  <h1 class="room-heading">Room Types</h1>
+  <section class="room-type">
+    <div class="room-images"></div>
+    <div class="room-list">
+      <h4>Single occupancy Room</h4>
+      <p> A room assigned to one person. May have one or more beds.The room size or area of single room <br> 
+         are generally 37 m(square) to 45m(square)</p>
+      <h4>Family Room</h4>
+      <p>A parlour or living room connected with to one or more bedrooms.(A room with one or more <br>
+        bedroooms and a seperate living space).<br>
+      The room size or area of suite rooms are generally between 70m(square) to 100m(square).</p>
+      <h4>Duplex Room</h4>
+      <p>The most expensive room provided be a hotel. Usually only one suite is available in one single<br>
+         hotel property.Similarly to the normal suites,a duplex suite always has one or more bedrooms<br>
+         and a living space with a strong emphasison grand in-rooms decorations, high quality amemities<br>
+        and supplies and tailor made services.</p>
+    </div>
+  </section>
+  <div class="help-button">
+    <h4>Need Help?</h4>
+  </div>
+  <h2 class="form-heading">Fill the Form For booking Room</h2>
+  <section class="form-container">
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Id</label><br>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="booking-date">Date of Booking</label><br>
+        <input type="date" id="booking-date" required>
+      </div>
+      <div class="form-group">
+        <label for="room-type">Select Room Type</label><br>
+        <select name="room-type" id="room-type" required>
+          <option value="" selected disabled>Select....</option>
+        <option value="Single-room">Single room</option>
+        <option value="Family-room">Family room</option>
+        <option value="Duplex-room">Duplex room</option>
+      </select>
+      </div>
+      <input type="submit" value="Book" required class="book">
+    </form>
+  </section>
+</body>
+</html>
